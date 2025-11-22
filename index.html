@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Whack-A-Mole Lite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Whack-A-Mole Lite</h1>
+
+    <div class="info-bar">
+      <div>Score: <span id="score">0</span></div>
+      <div>Time: <span id="time">30</span>s</div>
+    </div>
+
+    <div class="grid" id="grid">
+      <!-- 9 holes -->
+      <div class="hole" data-index="0"></div>
+      <div class="hole" data-index="1"></div>
+      <div class="hole" data-index="2"></div>
+      <div class="hole" data-index="3"></div>
+      <div class="hole" data-index="4"></div>
+      <div class="hole" data-index="5"></div>
+      <div class="hole" data-index="6"></div>
+      <div class="hole" data-index="7"></div>
+      <div class="hole" data-index="8"></div>
+    </div>
+
+    <button id="start-btn">Start Game</button>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
